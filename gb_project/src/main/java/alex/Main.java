@@ -9,10 +9,10 @@ public class Main {
         String animalType = animalRepository.showAnimalClass("horse", 3);
         System.out.println(animalType);
 
-        boolean adding = animalRepository.addAnimalCommand("cat", 5, "near");
+        boolean adding = animalRepository.addAnimalCommand("cat", 1, "near");
         System.out.println(adding);
 
-        commands = animalRepository.getAnimalCommands("cat", 5);
+        commands = animalRepository.getAnimalCommands("cat", 1);
         System.out.println(commands);
     }
 }
